@@ -1,0 +1,249 @@
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(122, 235, 255);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.contato button:hover{
+    box-shadow: 0px 0px 8px aqua;
+}
+
+body{
+    background-color: black;
+}
+
+.interface{
+    max-width: 1280;
+    margin: 0 auto;
+
+}
+
+.flex{
+    display: flex;
+
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2 span{
+    color:aqua;
+
+}
+
+/* Estilo do cabeçalho */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(65, 145, 151);
+    text-decoration: none;
+}
+
+header a:hover{
+    color: aqua;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.contato button:hover{
+    box-shadow: 0px 0px 8px aqua;
+    transform: scale(1.05);
+}
+
+
+/* Topo */
+
+section.TopSite{
+    padding: 40px 4%;
+
+}
+section.TopSite.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.TopSite h1{
+    color: aliceblue;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.TopSite h1 span{
+    color:aqua;
+
+}
+
+.TopSite p{
+    color:aliceblue;
+    margin: 40px 0;
+
+}
+
+.TopSite img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate ;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/*   Estilo das ESP.   */
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades.flex{
+    gap:60px;
+}
+
+.especialidades-box{
+    color: aliceblue;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+
+}
+
+.especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(240, 248, 255, 0.432);
+
+}
+
+.especialidades-box i{
+    font-size: 70px;
+    color: aqua;
+
+}
+
+.especialidades-box p{
+    font-size: 28px;
+    margin: 15px 0 ;
+}
+
+/*   Estilo do Sobre.   */
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre.flex{
+    align-items:center ;
+    gap: 60px;
+}
+
+.txt-sobre{
+    color: aliceblue;
+}
+
+.txt-sobre{
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.img-sobre{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate ;
+
+}
+
+/*   Estilo do projeto.   */
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px rgba(240, 248, 255, 0.199);
+}
+
+section.portfolio .flex{
+    justify-content: space-around;
+
+
+}
+
+.img-pot{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.img-pot:hover{
+    background-position: 100% 100%;
+}
+
+/*   Estilo do RodaPe.   */
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px rgba(240, 248, 255, 0.199);
+}
+
+.line-footer{
+    padding: 20px 0;
+    border-bottom: 2px solid aqua;
+}
+
+.line-footer p i{
+    color: aqua;
+    font-size: 48px;
+
+
+}
+
+.line-footer p a{
+    color: aliceblue;
+}
+
